@@ -4,4 +4,6 @@ Repository che contiene esempi di programmazione fatti durante i corsi di formaz
 
 Il codice è stato realizzato da:
 
--Lorenzo Amprino
+- Giovanni Pagano
+- Lorenzo Amprino
+- Jocelyn Luz Suarez Pena
