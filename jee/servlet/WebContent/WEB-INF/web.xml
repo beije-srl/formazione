@@ -16,12 +16,12 @@
 
 	<servlet>
 		<servlet-name>pippo</servlet-name>
-		<servlet-class>it.beije.testweb.Servlet</servlet-class>
+		<servlet-class>it.beije.formazione.maggio2018.jee.servlet</servlet-class>
 	</servlet>
-	
+
 	<servlet-mapping>
-	<servlet-name>pippo</servlet-name>
-	<url-pattern>/pippo/*</url-pattern>
+		<servlet-name>pippo</servlet-name>
+		<url-pattern>/pippo/*</url-pattern>
 	</servlet-mapping>
-	
+
 </web-app>
