@@ -51,7 +51,7 @@ public class LinkedList {
 	}
 
 	
-	// attenzione, c'èun errore che non trovo:
+	// attenzione, c'è un errore che non trovo:
 	// se si prova a togliere un elemento con lo stesso nome del primo elemento della lista cancella tutta la lista
 	// regalo una caramella a chi trova il baco
 	public void remove(String name) {
