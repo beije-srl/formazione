@@ -56,15 +56,17 @@ public class LinkedList {
 	// regalo una caramella a chi trova il baco
 	public void remove(String name) {
 		Node cursore = this.head;
+		
 		if (cursore.getName().equals(name)) {
+			
 			if (head.getNext() != null) {
 				this.head = head.getNext();
 			}
-			this.head = null;
 			return;
 		}
 
 		if (cursore.getNext().name.equals(name)) {
+			
 			if (cursore.getNext().getNext() != null)
 				cursore.setNext(cursore.getNext().getNext());
 			else
@@ -75,7 +77,9 @@ public class LinkedList {
 		do {
 			cursore = cursore.getNext();
 			if (cursore.getNext().name.equals(name)) {
+				
 				if (cursore.getNext().getNext() != null)
+					
 					cursore.setNext(cursore.getNext().getNext());
 				else
 					cursore.setNext(null);

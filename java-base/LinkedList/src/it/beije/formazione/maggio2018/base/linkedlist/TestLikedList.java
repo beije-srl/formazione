@@ -11,7 +11,7 @@ public class TestLikedList {
 
 		System.out.println(lista);
 
-		lista.remove("latte");
+		lista.remove("pane");
 
 		System.out.println("dopo della rimozione \n" + lista);
 
