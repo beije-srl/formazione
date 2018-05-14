@@ -1,5 +1,7 @@
 package it.beije.formazione.maggio2018.base.linkedlist;
 
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
 public class Node {
 
 	public String name;

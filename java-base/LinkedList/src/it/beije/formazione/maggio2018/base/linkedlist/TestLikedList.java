@@ -1,5 +1,7 @@
 package it.beije.formazione.maggio2018.base.linkedlist;
 
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
 public class TestLikedList {
 
 	public static void main(String[] args) {
@@ -16,6 +18,7 @@ public class TestLikedList {
 		System.out.println("dopo della rimozione \n" + lista);
 
 		System.out.println(lista.size());
+		
 	}
 
 }

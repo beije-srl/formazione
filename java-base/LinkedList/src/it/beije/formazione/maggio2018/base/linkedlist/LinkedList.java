@@ -50,10 +50,6 @@ public class LinkedList {
 		} while (cursore.getNext() != null);
 	}
 
-	
-	// attenzione, c'è un errore che non trovo:
-	// se si prova a togliere un elemento con lo stesso nome del primo elemento della lista cancella tutta la lista
-	// regalo una caramella a chi trova il baco
 	public void remove(String name) {
 		Node cursore = this.head;
 		
