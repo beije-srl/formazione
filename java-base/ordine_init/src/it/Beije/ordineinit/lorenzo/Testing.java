@@ -1,4 +1,4 @@
-package it.Beije.orineinit.lorenzo;
+package it.beije.ordineinit.lorenzo;
 
 public class Testing {
 	public static void main(String[] args) {

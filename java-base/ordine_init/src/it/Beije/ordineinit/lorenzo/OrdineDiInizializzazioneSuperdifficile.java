@@ -1,4 +1,4 @@
-package it.Beije.orineinit.lorenzo;
+package it.beije.ordineinit.lorenzo;
 
 public class OrdineDiInizializzazioneSuperdifficile {
 
