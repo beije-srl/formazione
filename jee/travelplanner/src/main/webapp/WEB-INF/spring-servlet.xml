@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- A simple bean definition -->
+	<bean class="it.beije.formazione.controller.TravelPlannerControler">
+		<property name="dao" ref="travelDao"></property>
+		<!-- collaborators and configuration for this bean go here -->
+	</bean>
+	
+	<bean id="travelDao" class="it.beije.formazione.dao.TravelPlannerDao"></bean>
+	
+
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix">
+			<value>/pagina/</value>
+		</property>
+		<property name="suffix">
+			<value>.jsp</value>
+		</property>
+	</bean>
+
+</beans>
